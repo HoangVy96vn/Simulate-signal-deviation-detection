@@ -22,7 +22,7 @@ Step 2: Run machine.py (The data generator)
 
 Step 3: Launch dashboard.py (The visualization)
 
-(Or run docker-compose.yml file for if you have Docker Desktop)
+(Or run docker-compose.yml file if you have Docker Desktop)
 
 This setup mimics how data flows from a physical machine on a factory floor to a cloud-based monitoring center.
 
