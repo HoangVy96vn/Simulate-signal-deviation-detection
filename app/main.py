@@ -26,12 +26,12 @@ class Signal(BaseModel):
 # --- CẤU HÌNH NGƯỠNG CẢNH BÁO (LEVEL 1) ---
 # Định nghĩa: (Cận dưới, Cận trên)
 THRESHOLDS = {
-    "temperature_zone_1": (800.0, 870.0),
-    "temperature_zone_2": (230.0, 270.0),
-    "main_gas_pressure": (60.0, 100.0),
-    "carbon_potential": (0.7, 0.9),
+    "temperature_zone_1": (840.0, 860.0),
+    "temperature_zone_2": (245.0, 255.0),
+    "main_gas_pressure": (70.0, 90.0),
+    "carbon_potential": (0.85, 0.95),
     "oxygen_mV": (1100.0, 1200.0),
-    "CO_percentage": (15.0, 25.0)
+    "CO_percentage": (17.0, 23.0)
 }
 
 
