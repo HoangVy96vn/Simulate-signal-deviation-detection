@@ -3,7 +3,7 @@ import time
 import random
 from datetime import datetime
 
-URL = "http://127.0.0.1:8000/ingest"
+URL = "http://backend-api:8000/ingest"
 
 SIGNAL_CONFIGS = {
     "temperature_zone_1": (850.0, 10.0),
