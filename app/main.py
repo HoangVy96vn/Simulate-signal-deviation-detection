@@ -35,51 +35,39 @@ THRESHOLDS = {
     "CO_percentage": (17.0, 23.0)
 }
 
+def save_alert_to_csv(alert_msg):
+    alert_path = "data/alerts_log.csv"
+    now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    new_alert = pd.DataFrame([{"timestamp": now, "message": alert_msg}])
+    new_alert.to_csv(alert_path, mode='a', header=not os.path.exists(alert_path), index=False)
+
 
 @app.post("/ingest")
 async def ingest_data(signals: List[Signal]):
     alerts = []
-
     for sig in signals:
-        # --- LEVEL 1: CHECK VALUES OUT OF CONTROL RANGE ---
+        # Check alert Level 1
         if sig.signal_name in THRESHOLDS:
             lower, upper = THRESHOLDS[sig.signal_name]
             if sig.value > upper or sig.value < lower:
-                msg = f"⚠️ [L1-RANGE] {sig.signal_name} out of range! Value: {sig.value} (Limit: {lower}-{upper})"
+                msg = f"⚠️ [L1-RANGE] {sig.signal_name} out of range! Value: {sig.value}"
                 alerts.append(msg)
+                save_alert_to_csv(msg)
 
-        # --- LEVEL 2: CHECK SUDDEN CHANGE/SPIKE ---
-        # Exclude signal indicate furnace run/no run (0/1)
+        # Check alert Level 2 (Spike)
         if sig.signal_name != "furnace_empty":
             if sig.signal_name not in history:
                 history[sig.signal_name] = deque(maxlen=5)
-
-            # Compare when have enough 5 data points before
             if len(history[sig.signal_name]) == 5:
                 avg_recent = sum(history[sig.signal_name]) / 5
-
-                # Check if signal is different over 20% of average 5 previous points
-                # (Prevent dividing for 0 if avg = 0)
-                if avg_recent > 0 and abs(sig.value - avg_recent) > (avg_recent * 0.2):
-                    msg = f"⚡ [L2-SPIKE] {sig.signal_name} sudden change! Value: {sig.value} (Avg of last 5: {round(avg_recent, 2)})"
+                if avg_recent > 0 and abs(sig.value - avg_recent) > (avg_recent * 0.15):  # if signal out 15% average of last 5 points -> spike
+                    msg = f"⚡ [L2-SPIKE] {sig.signal_name} sudden change! Value: {sig.value}"
                     alerts.append(msg)
-
-            # Input new value to history
+                    save_alert_to_csv(msg)
             history[sig.signal_name].append(sig.value)
 
         save_to_csv(sig)
-
-    # Show warining in Terminal - for easy view for developer
-    if alerts:
-        print(f"\n--- {datetime.now().strftime('%H:%M:%S')} NEW ALERTS ---")
-        for a in alerts:
-            print(a)
-
-    return {
-        "status": "success",
-        "alerts_count": len(alerts),
-        "alerts_detail": alerts
-    }
+    return {"status": "success", "alerts_count": len(alerts)}
 
 
 def save_to_csv(sig: Signal):

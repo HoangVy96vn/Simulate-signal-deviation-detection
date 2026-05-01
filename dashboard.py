@@ -27,7 +27,7 @@ MY_LIMITS = {
 # --- HELPER FUNCTIONS ---
 
 def prepare_data_with_status(df, signal_name):
-    """Trộn trạng thái furnace_empty vào tín hiệu cụ thể để hiển thị trên Hover"""
+    """Add furnace_empty (condition) into to show when Hover into datapoints on dashboard"""
     status_df = df[df['signal_name'] == "furnace_empty"][['timestamp', 'value']]
     status_df['status_text'] = status_df['value'].map({0.0: "RUN", 1.0: "NO RUN"})
 
@@ -37,7 +37,7 @@ def prepare_data_with_status(df, signal_name):
 
 
 def create_dual_y_chart(df, title, sig1, sig2, unit1, unit2, limits):
-    """Vẽ biểu đồ trục Y kép với Hover Status và Limit Shapes"""
+    """Function to draw chart dual y-axis plus Hover Status và Limit Shapes"""
     fig = make_subplots(specs=[[{"secondary_y": True}]])
 
     # 1st signal (Left)
@@ -130,7 +130,7 @@ while True:
                     # Main Gas
                     st.plotly_chart(
                         create_dual_y_chart(df_plot, "Main Gas Analysis", "main_gas_flow", "main_gas_pressure", "m3/h",
-                                            "Bar", MY_LIMITS), use_container_width=True)
+                                            "mbar", MY_LIMITS), use_container_width=True)
 
                 with col_right:
                     # Atmosphere
@@ -140,7 +140,7 @@ while True:
 
                     # Addition Gas
                     st.plotly_chart(create_dual_y_chart(df_plot, "Addition Gas Analysis", "addition_gas_flow",
-                                                        "addition_gas_pressure", "m3/h", "Pa", MY_LIMITS),
+                                                        "addition_gas_pressure", "Nl/h", "mbar", MY_LIMITS),
                                     use_container_width=True)
 
                 # 2/ CO Percentage Chart (with Limit & Hover Status)
@@ -167,23 +167,50 @@ while True:
                 df_pivot = df_plot.pivot_table(index='timestamp', columns='signal_name', values='value').reset_index()
 
 
-                # Logic check alert cho từng dòng
+                # 1. Table raw data visualize which data points is out, which time has alert
                 def check_row_alert(row):
                     for col, limits in MY_LIMITS.items():
-                        if col in row and (row[col] < limits[0] or row[row[col] > limits[1]]):
-                            return "⚠️ YES"
+                        if col in row:
+                            val = row[col]
+                            if val < limits[0] or val > limits[1]:
+                                return "⚠️ YES"
                     return "OK"
 
 
                 df_pivot['Is_Alert'] = df_pivot.apply(check_row_alert, axis=1)
 
-                # Sắp xếp mới nhất lên đầu
-                df_pivot = df_pivot.sort_values(by='timestamp', ascending=False)
-                df_pivot['timestamp'] = df_pivot['timestamp'].dt.strftime('%H:%M:%S %d-%m-%Y')
 
-                # Hiển thị cột Alert đầu tiên cho dễ nhìn
+                # 2. Highlight in red for alert values
+                def style_alert_cells(df):
+                    # Create empty dataframe same shape with df for CSS format
+                    style_df = pd.DataFrame('', index=df.index, columns=df.columns)
+
+                    for col, limits in MY_LIMITS.items():
+                        if col in df.columns:
+                            # Condition: value out threshold
+                            is_error = (df[col] < limits[0]) | (df[col] > limits[1])
+                            # Style
+                            style_df.loc[is_error, col] = 'background-color: #ff4b4b; color: white; font-weight: bold'
+
+                    return style_df
+
+                # Show the newest information
+                df_pivot = df_pivot.sort_values(by='timestamp', ascending=False)
+
+                # Format time to string
+                df_display = df_pivot.copy()
+                df_display['timestamp'] = df_display['timestamp'].dt.strftime('%H:%M:%S %d-%m-%Y')
+
+                # Show Alert at the first column
                 cols = ['timestamp', 'Is_Alert'] + [c for c in df_pivot.columns if c not in ['timestamp', 'Is_Alert']]
-                st.dataframe(df_pivot[cols], use_container_width=True, height=350)
+                df_display = df_display[cols]
+
+                # Style
+                st.dataframe(
+                    df_display.style.apply(style_alert_cells, axis=None),
+                    use_container_width=True,
+                    height=400
+                )
 
             except Exception as e:
                 st.error(f"Error processing data: {e}")
