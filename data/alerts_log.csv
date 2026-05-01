@@ -1472,3 +1472,441 @@ timestamp,message
 2026-05-02 03:16:01,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 0.0
 2026-05-02 03:16:01,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.95
 2026-05-02 03:16:03,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 26.33
+2026-05-01 21:20:58,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-01 21:21:02,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 36.0
+2026-05-01 21:21:05,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 0.0
+2026-05-01 21:21:10,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 0.0
+2026-05-01 21:21:10,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 0.0
+2026-05-01 21:21:10,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1110.31
+2026-05-01 21:21:10,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:21:10,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:21:12,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 120.0
+2026-05-01 21:21:12,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 120.0
+2026-05-01 21:21:12,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1131.79
+2026-05-01 21:21:12,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 0.0
+2026-05-01 21:21:14,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 1725.0
+2026-05-01 21:21:14,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1725.0
+2026-05-01 21:21:14,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 396.32
+2026-05-01 21:21:16,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 399.41
+2026-05-01 21:21:16,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:21:18,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 23.91
+2026-05-01 21:21:18,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 362.92
+2026-05-01 21:21:18,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 44.78
+2026-05-01 21:21:18,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.15
+2026-05-01 21:21:21,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 382.98
+2026-05-01 21:21:21,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 48.71
+2026-05-01 21:21:23,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 36.0
+2026-05-01 21:21:23,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 36.0
+2026-05-01 21:21:23,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 70.47
+2026-05-01 21:21:23,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 41.37
+2026-05-01 21:21:25,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 375.0
+2026-05-01 21:21:25,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 375.0
+2026-05-01 21:21:25,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 42.33
+2026-05-01 21:21:27,⚠️ [L1-RANGE] temperature_zone_1 out of range! Value: 0.0
+2026-05-01 21:21:27,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 0.0
+2026-05-01 21:21:27,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 120.0
+2026-05-01 21:21:27,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 120.0
+2026-05-01 21:21:27,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 43.38
+2026-05-01 21:21:29,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 854.88
+2026-05-01 21:21:29,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 0.0
+2026-05-01 21:21:29,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 0.0
+2026-05-01 21:21:29,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 21.7
+2026-05-01 21:21:32,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 851.86
+2026-05-01 21:21:32,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 21.49
+2026-05-01 21:21:34,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 840.52
+2026-05-01 21:21:34,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 1725.0
+2026-05-01 21:21:34,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1725.0
+2026-05-01 21:21:36,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 852.14
+2026-05-01 21:21:39,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 840.48
+2026-05-01 21:21:39,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 253.22
+2026-05-01 21:21:39,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 72.77
+2026-05-01 21:21:41,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 249.9
+2026-05-01 21:21:43,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 21.43
+2026-05-01 21:21:50,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 25.71
+2026-05-01 21:21:50,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 525.0
+2026-05-01 21:21:54,⚠️ [L1-RANGE] temperature_zone_1 out of range! Value: 1275.0
+2026-05-01 21:21:54,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 1275.0
+2026-05-01 21:21:54,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 319.52
+2026-05-01 21:21:57,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:21:59,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 0.0
+2026-05-01 21:21:59,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:21:59,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 44.66
+2026-05-01 21:22:01,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 82.59
+2026-05-01 21:22:01,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 45.04
+2026-05-01 21:22:03,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 88.26
+2026-05-01 21:22:05,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 78.25
+2026-05-01 21:22:05,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 300.66
+2026-05-01 21:22:08,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 41.92
+2026-05-01 21:22:08,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:22:08,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:22:10,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 78.71
+2026-05-01 21:22:10,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 19.07
+2026-05-01 21:22:12,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 300.57
+2026-05-01 21:22:12,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.44
+2026-05-01 21:22:14,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.21
+2026-05-01 21:22:17,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 0.0
+2026-05-01 21:22:17,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:22:19,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 73.27
+2026-05-01 21:22:19,⚠️ [L1-RANGE] carbon_potential out of range! Value: 1.35
+2026-05-01 21:22:19,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 1.35
+2026-05-01 21:22:21,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 87.07
+2026-05-01 21:22:23,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 85.59
+2026-05-01 21:22:25,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 89.21
+2026-05-01 21:22:25,⚠️ [L1-RANGE] carbon_potential out of range! Value: 0.0
+2026-05-01 21:22:25,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.0
+2026-05-01 21:22:25,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 525.0
+2026-05-01 21:22:28,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.93
+2026-05-01 21:22:30,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 310.45
+2026-05-01 21:22:32,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.9
+2026-05-01 21:22:32,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 525.0
+2026-05-01 21:22:34,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.85
+2026-05-01 21:22:34,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 336.86
+2026-05-01 21:22:37,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.86
+2026-05-01 21:22:37,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.16
+2026-05-01 21:22:43,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 0.0
+2026-05-01 21:22:43,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 0.0
+2026-05-01 21:22:43,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 67.5
+2026-05-01 21:22:45,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 246.5
+2026-05-01 21:22:45,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 40.52
+2026-05-01 21:22:48,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 251.23
+2026-05-01 21:22:48,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-01 21:22:48,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 0.0
+2026-05-01 21:22:50,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 248.55
+2026-05-01 21:22:50,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 36.0
+2026-05-01 21:22:50,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 36.0
+2026-05-01 21:22:50,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 306.54
+2026-05-01 21:22:50,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 19.4
+2026-05-01 21:22:52,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 254.84
+2026-05-01 21:22:52,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 22.51
+2026-05-01 21:22:54,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 246.91
+2026-05-01 21:22:54,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 21.18
+2026-05-01 21:22:57,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 1725.0
+2026-05-01 21:22:57,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1725.0
+2026-05-01 21:22:57,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 21.48
+2026-05-01 21:22:59,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 19.37
+2026-05-01 21:23:01,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 22.93
+2026-05-01 21:23:01,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 0.0
+2026-05-01 21:23:04,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 0.0
+2026-05-01 21:23:04,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 0.0
+2026-05-01 21:23:04,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 525.0
+2026-05-01 21:23:10,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1164.57
+2026-05-01 21:23:12,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1182.68
+2026-05-01 21:23:15,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1137.44
+2026-05-01 21:23:17,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 67.5
+2026-05-01 21:23:19,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 391.0
+2026-05-01 21:23:21,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-01 21:23:21,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 0.0
+2026-05-01 21:23:23,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 21.04
+2026-05-01 21:23:23,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.68
+2026-05-01 21:23:26,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 21.38
+2026-05-01 21:23:28,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 43.31
+2026-05-01 21:23:28,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.76
+2026-05-01 21:23:32,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 19.16
+2026-05-01 21:23:36,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 89.9
+2026-05-01 21:23:41,⚠️ [L1-RANGE] carbon_potential out of range! Value: 1.35
+2026-05-01 21:23:41,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 1.35
+2026-05-01 21:23:46,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 304.8
+2026-05-01 21:23:50,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.01
+2026-05-01 21:23:52,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 0.0
+2026-05-01 21:23:52,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 0.0
+2026-05-01 21:23:52,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.58
+2026-05-01 21:23:54,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1176.26
+2026-05-01 21:23:57,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1199.42
+2026-05-01 21:23:59,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1118.39
+2026-05-01 21:24:01,⚠️ [L1-RANGE] carbon_potential out of range! Value: 1.35
+2026-05-01 21:24:01,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 1.35
+2026-05-01 21:24:01,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1102.57
+2026-05-01 21:24:04,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1181.08
+2026-05-01 21:24:04,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:24:06,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 88.7
+2026-05-01 21:24:06,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 48.97
+2026-05-01 21:24:08,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 44.65
+2026-05-01 21:24:10,⚠️ [L1-RANGE] temperature_zone_1 out of range! Value: 0.0
+2026-05-01 21:24:10,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 0.0
+2026-05-01 21:24:10,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 0.0
+2026-05-01 21:24:10,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 0.0
+2026-05-01 21:24:10,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 393.33
+2026-05-01 21:24:10,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 45.3
+2026-05-01 21:24:10,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.25
+2026-05-01 21:24:12,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 851.44
+2026-05-01 21:24:12,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 23.94
+2026-05-01 21:24:12,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 43.76
+2026-05-01 21:24:15,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 850.59
+2026-05-01 21:24:15,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 375.0
+2026-05-01 21:24:15,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 375.0
+2026-05-01 21:24:15,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 23.31
+2026-05-01 21:24:15,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 1725.0
+2026-05-01 21:24:15,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1725.0
+2026-05-01 21:24:15,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 46.18
+2026-05-01 21:24:17,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 842.17
+2026-05-01 21:24:17,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 22.78
+2026-05-01 21:24:19,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 843.3
+2026-05-01 21:24:19,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 22.96
+2026-05-01 21:24:19,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 0.0
+2026-05-01 21:24:21,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 843.9
+2026-05-01 21:24:21,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 26.24
+2026-05-01 21:24:21,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 343.03
+2026-05-01 21:24:24,⚠️ [L1-RANGE] temperature_zone_1 out of range! Value: 0.0
+2026-05-01 21:24:24,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 0.0
+2026-05-01 21:24:24,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 120.0
+2026-05-01 21:24:24,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 120.0
+2026-05-01 21:24:24,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 319.43
+2026-05-01 21:24:26,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 856.46
+2026-05-01 21:24:26,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 70.16
+2026-05-01 21:24:26,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 356.79
+2026-05-01 21:24:26,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.55
+2026-05-01 21:24:28,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 846.69
+2026-05-01 21:24:28,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 366.78
+2026-05-01 21:24:30,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 856.81
+2026-05-01 21:24:30,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 395.06
+2026-05-01 21:24:32,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 850.38
+2026-05-01 21:24:32,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 72.68
+2026-05-01 21:24:35,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 847.79
+2026-05-01 21:24:37,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 67.5
+2026-05-01 21:24:39,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.0
+2026-05-01 21:24:42,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:24:42,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:24:50,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 120.0
+2026-05-01 21:24:50,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 120.0
+2026-05-01 21:24:50,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 18.07
+2026-05-01 21:24:54,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 525.0
+2026-05-01 21:24:57,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 0.0
+2026-05-01 21:24:57,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 0.0
+2026-05-01 21:24:57,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 74.66
+2026-05-01 21:24:57,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 301.53
+2026-05-01 21:24:59,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 24.71
+2026-05-01 21:24:59,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 71.36
+2026-05-01 21:25:01,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 26.22
+2026-05-01 21:25:01,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 0.0
+2026-05-01 21:25:01,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 0.0
+2026-05-01 21:25:03,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 23.72
+2026-05-01 21:25:03,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 0.0
+2026-05-01 21:25:03,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:25:03,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1129.73
+2026-05-01 21:25:05,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 77.93
+2026-05-01 21:25:05,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1156.76
+2026-05-01 21:25:07,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 70.7
+2026-05-01 21:25:07,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1155.43
+2026-05-01 21:25:10,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 84.34
+2026-05-01 21:25:10,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1158.19
+2026-05-01 21:25:10,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 301.87
+2026-05-01 21:25:10,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:25:10,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:25:12,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 84.65
+2026-05-01 21:25:12,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1111.75
+2026-05-01 21:25:14,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 26.59
+2026-05-01 21:25:14,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 88.88
+2026-05-01 21:25:14,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.86
+2026-05-01 21:25:16,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 26.98
+2026-05-01 21:25:16,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 67.5
+2026-05-01 21:25:18,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.72
+2026-05-01 21:25:20,⚠️ [L1-RANGE] temperature_zone_1 out of range! Value: 0.0
+2026-05-01 21:25:20,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 0.0
+2026-05-01 21:25:20,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 0.0
+2026-05-01 21:25:23,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 844.88
+2026-05-01 21:25:23,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.62
+2026-05-01 21:25:25,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 859.39
+2026-05-01 21:25:25,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 348.97
+2026-05-01 21:25:25,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.97
+2026-05-01 21:25:27,⚠️ [L1-RANGE] temperature_zone_1 out of range! Value: 1275.0
+2026-05-01 21:25:27,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 1275.0
+2026-05-01 21:25:27,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 336.89
+2026-05-01 21:25:31,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 317.21
+2026-05-01 21:25:34,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 18.95
+2026-05-01 21:25:36,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 0.0
+2026-05-01 21:25:36,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 0.0
+2026-05-01 21:25:36,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 378.73
+2026-05-01 21:25:36,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 18.31
+2026-05-01 21:25:38,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1115.25
+2026-05-01 21:25:38,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 389.04
+2026-05-01 21:25:40,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1198.46
+2026-05-01 21:25:42,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1179.95
+2026-05-01 21:25:45,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1123.56
+2026-05-01 21:25:45,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.38
+2026-05-01 21:25:47,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1165.46
+2026-05-01 21:25:49,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 0.0
+2026-05-01 21:25:49,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 0.0
+2026-05-01 21:25:49,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 89.48
+2026-05-01 21:25:52,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 248.66
+2026-05-01 21:25:52,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 305.47
+2026-05-01 21:25:52,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-01 21:25:52,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 0.0
+2026-05-01 21:25:54,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 254.41
+2026-05-01 21:25:54,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 0.0
+2026-05-01 21:25:54,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:25:56,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 247.49
+2026-05-01 21:25:56,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 84.37
+2026-05-01 21:25:56,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.63
+2026-05-01 21:25:58,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 249.37
+2026-05-01 21:25:58,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 19.5
+2026-05-01 21:26:00,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 375.0
+2026-05-01 21:26:00,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 375.0
+2026-05-01 21:26:00,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 76.6
+2026-05-01 21:26:01,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:26:01,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:26:03,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 81.16
+2026-05-01 21:26:06,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 80.97
+2026-05-01 21:26:06,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 382.56
+2026-05-01 21:26:09,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:26:09,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:26:13,⚠️ [L1-RANGE] carbon_potential out of range! Value: 1.35
+2026-05-01 21:26:13,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 1.35
+2026-05-01 21:26:13,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.43
+2026-05-01 21:26:17,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 0.0
+2026-05-01 21:26:17,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 0.0
+2026-05-01 21:26:19,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 250.23
+2026-05-01 21:26:21,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 254.42
+2026-05-01 21:26:24,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 253.32
+2026-05-01 21:26:24,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 36.0
+2026-05-01 21:26:24,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 36.0
+2026-05-01 21:26:24,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.22
+2026-05-01 21:26:46,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 0.0
+2026-05-01 21:26:46,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:26:48,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 375.0
+2026-05-01 21:26:48,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 1725.0
+2026-05-01 21:26:51,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 352.14
+2026-05-01 21:26:51,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 48.94
+2026-05-01 21:26:53,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 335.71
+2026-05-01 21:27:04,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 399.96
+2026-05-01 21:27:08,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 1725.0
+2026-05-01 21:27:08,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1725.0
+2026-05-01 21:27:10,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 21.15
+2026-05-01 21:27:10,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 0.0
+2026-05-01 21:27:10,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:27:12,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 77.78
+2026-05-01 21:27:14,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 74.11
+2026-05-01 21:27:14,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.31
+2026-05-01 21:27:16,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 82.97
+2026-05-01 21:27:17,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 1725.0
+2026-05-01 21:27:17,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1725.0
+2026-05-01 21:27:19,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 75.37
+2026-05-01 21:27:19,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1157.89
+2026-05-01 21:27:19,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 300.93
+2026-05-01 21:27:21,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 71.49
+2026-05-01 21:27:23,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 525.0
+2026-05-01 21:27:25,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 375.0
+2026-05-01 21:27:25,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 375.0
+2026-05-01 21:27:25,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 525.0
+2026-05-01 21:27:25,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.11
+2026-05-01 21:27:32,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 0.0
+2026-05-01 21:27:32,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 0.0
+2026-05-01 21:27:34,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 0.0
+2026-05-01 21:27:34,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 0.0
+2026-05-01 21:27:34,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1125.06
+2026-05-01 21:27:34,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 318.65
+2026-05-01 21:27:36,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 0.0
+2026-05-01 21:27:36,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 0.0
+2026-05-01 21:27:36,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1185.02
+2026-05-01 21:27:38,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 22.12
+2026-05-01 21:27:38,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1162.92
+2026-05-01 21:27:38,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 67.5
+2026-05-01 21:27:40,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 25.83
+2026-05-01 21:27:40,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1198.43
+2026-05-01 21:27:40,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 306.17
+2026-05-01 21:27:40,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 41.18
+2026-05-01 21:27:40,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-01 21:27:40,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 0.0
+2026-05-01 21:27:42,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 24.79
+2026-05-01 21:27:42,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1131.84
+2026-05-01 21:27:43,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 21.16
+2026-05-01 21:27:45,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 25.36
+2026-05-01 21:27:45,⚠️ [L1-RANGE] oxygen_mV out of range! Value: 0.0
+2026-05-01 21:27:45,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 0.0
+2026-05-01 21:27:45,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:27:45,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.15
+2026-05-01 21:27:47,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 25.64
+2026-05-01 21:27:47,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1114.24
+2026-05-01 21:27:49,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1142.08
+2026-05-01 21:27:49,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.98
+2026-05-01 21:27:51,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1185.76
+2026-05-01 21:27:51,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 41.58
+2026-05-01 21:27:51,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.48
+2026-05-01 21:27:53,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 73.99
+2026-05-01 21:27:53,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1173.1
+2026-05-01 21:27:53,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 302.85
+2026-05-01 21:27:53,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 49.81
+2026-05-01 21:27:55,⚠️ [L1-RANGE] carbon_potential out of range! Value: 1.35
+2026-05-01 21:27:55,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 1.35
+2026-05-01 21:27:55,⚡ [L2-SPIKE] oxygen_mV sudden change! Value: 1123.03
+2026-05-01 21:27:55,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 48.92
+2026-05-01 21:27:57,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 375.0
+2026-05-01 21:27:57,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 375.0
+2026-05-01 21:27:58,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 0.0
+2026-05-01 21:28:00,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 391.45
+2026-05-01 21:28:00,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 67.5
+2026-05-01 21:28:02,⚠️ [L1-RANGE] temperature_zone_2 out of range! Value: 0.0
+2026-05-01 21:28:02,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 0.0
+2026-05-01 21:28:02,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 363.74
+2026-05-01 21:28:04,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 89.65
+2026-05-01 21:28:04,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 334.64
+2026-05-01 21:28:08,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 394.96
+2026-05-01 21:28:10,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 254.01
+2026-05-01 21:28:10,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 306.07
+2026-05-01 21:28:11,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 40.23
+2026-05-01 21:28:11,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-01 21:28:11,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 0.0
+2026-05-01 21:28:13,⚡ [L2-SPIKE] temperature_zone_2 sudden change! Value: 254.44
+2026-05-01 21:28:13,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.35
+2026-05-01 21:28:15,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 18.93
+2026-05-01 21:28:17,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.35
+2026-05-01 21:28:19,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 0.0
+2026-05-01 21:28:19,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.71
+2026-05-01 21:28:21,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 0.0
+2026-05-01 21:28:21,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 0.0
+2026-05-01 21:28:21,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 19.17
+2026-05-01 21:28:23,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 82.23
+2026-05-01 21:28:23,⚠️ [L1-RANGE] carbon_potential out of range! Value: 0.0
+2026-05-01 21:28:23,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.0
+2026-05-01 21:28:23,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 396.08
+2026-05-01 21:28:25,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 84.48
+2026-05-01 21:28:25,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.89
+2026-05-01 21:28:26,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 395.02
+2026-05-01 21:28:28,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.93
+2026-05-01 21:28:28,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 330.6
+2026-05-01 21:28:30,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 79.65
+2026-05-01 21:28:30,⚠️ [L1-RANGE] carbon_potential out of range! Value: 1.35
+2026-05-01 21:28:30,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 1.35
+2026-05-01 21:28:32,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 84.49
+2026-05-01 21:28:43,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.27
+2026-05-01 21:28:47,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:28:47,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:28:49,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 48.71
+2026-05-01 21:28:49,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.65
+2026-05-01 21:28:52,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-01 21:28:52,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 0.0
+2026-05-01 21:28:54,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.63
+2026-05-01 21:28:58,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 22.29
+2026-05-01 21:29:00,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 19.95
+2026-05-01 21:29:02,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 21.2
+2026-05-01 21:29:02,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 394.14
+2026-05-01 21:29:02,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.44
+2026-05-01 21:29:04,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 120.0
+2026-05-01 21:29:04,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 120.0
+2026-05-01 21:29:05,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:29:05,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:29:07,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 72.19
+2026-05-01 21:29:07,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.12
+2026-05-01 21:33:18,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 385.74
+2026-05-01 21:33:20,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 67.5
+2026-05-01 21:33:22,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-01 21:33:22,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 0.0
+2026-05-01 21:33:24,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 41.35
+2026-05-01 21:33:26,⚠️ [L1-RANGE] temperature_zone_1 out of range! Value: 0.0
+2026-05-01 21:33:26,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 0.0
+2026-05-01 21:33:26,⚡ [L2-SPIKE] addition_gas_pressure sudden change! Value: 40.5
+2026-05-01 21:33:27,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 18.09
+2026-05-01 21:33:29,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 847.97
+2026-05-01 21:33:29,⚡ [L2-SPIKE] addition_gas_flow sudden change! Value: 398.08
+2026-05-01 21:33:29,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
+2026-05-01 21:33:29,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-01 21:33:31,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 853.97
+2026-05-01 21:33:31,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.48
+2026-05-01 21:33:33,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 853.08
+2026-05-01 21:33:33,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.01
+2026-05-01 21:33:35,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 849.93
+2026-05-01 21:33:37,⚡ [L2-SPIKE] temperature_zone_1 sudden change! Value: 849.43
+2026-05-01 21:33:37,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.83
+2026-05-01 21:33:39,⚠️ [L1-RANGE] main_gas_pressure out of range! Value: 120.0
+2026-05-01 21:33:39,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 120.0
+2026-05-01 21:33:39,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 17.21
+2026-05-01 21:33:44,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 77.32

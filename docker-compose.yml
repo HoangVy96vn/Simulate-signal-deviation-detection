@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # 1. Backend (main.py)
+  backend-api:
+    build:
+      context: .                   # Đứng ở folder gốc
+      dockerfile: app/Dockerfile.api # Chỉ đường dẫn vào Dockerfile bên trong folder app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+
+  # 2. Simulator (machine.py)
+  data-generator:
+    build:
+      context: .                   # Đứng ở folder gốc để thấy được requirements.txt
+      dockerfile: simulator/Dockerfile.machine
+    depends_on:
+      - backend-api
+    volumes:
+      - ./data:/app/data
+
+  # 3. Dashboard (dashboard.py)
+  frontend-dashboard:
+    build:
+      context: .                   # Đứng ở folder gốc
+      dockerfile: Dockerfile.dashboard
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend-api
+    volumes:
+      - ./data:/app/data
