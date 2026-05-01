@@ -11,8 +11,9 @@ st.set_page_config(page_title="Furnace Demo Deviation Detection", layout="wide")
 MY_LIMITS = {
     "temperature_zone_1": [800.0, 870.0],
     "temperature_zone_2": [230.0, 270.0],
+    "main_gas_flow": [21.0, 27.0],
     "main_gas_pressure": [60.0, 100.0],
-    "carbon_potential": [0.7, 0.9],
+    "carbon_potential": [0.7, 1.0],
     "oxygen_mV": [1100.0, 1200.0],
     "CO_percentage": [15.0, 25.0]
 }
@@ -144,7 +145,7 @@ if not df_plot.empty:
         st.plotly_chart(fig_temp, use_container_width=True)
 
         st.plotly_chart(
-            create_dual_y_chart(df_plot, "Gas Analysis", "main_gas_flow", "main_gas_pressure", "m3/h", "Bar",
+            create_dual_y_chart(df_plot, "Gas Analysis", "main_gas_flow", "main_gas_pressure", "m3/h", "mbar",
                                 MY_LIMITS), use_container_width=True)
 
     with c2:
@@ -152,8 +153,25 @@ if not df_plot.empty:
             create_dual_y_chart(df_plot, "Atmosphere (CP/O2)", "carbon_potential", "oxygen_mV", "%", "mV", MY_LIMITS),
             use_container_width=True)
         st.plotly_chart(
-            create_dual_y_chart(df_plot, "Addition Gas", "addition_gas_flow", "addition_gas_pressure", "m3/h", "Pa",
+            create_dual_y_chart(df_plot, "Addition Gas", "addition_gas_flow", "addition_gas_pressure", "Nl/h", "mbar",
                                 MY_LIMITS), use_container_width=True)
+    # 2/ CO Percentage Chart (with Limit & Hover Status)
+    st.divider()
+    st.subheader("CO Percentage Trend")
+    d_co = prepare_data_with_status(df_plot, "CO_percentage")
+    fig_co = go.Figure()
+    fig_co.add_trace(go.Scatter(
+        x=d_co['timestamp'], y=d_co['value'], name="CO%",
+        customdata=d_co['status_text'],
+        hovertemplate="Value: %{y} %<br>Status: %{customdata}<extra></extra>"
+    ))
+    if "CO_percentage" in MY_LIMITS:
+        fig_co.add_hline(y=MY_LIMITS["CO_percentage"][1], line_dash="dash", line_color="red",
+                         annotation_text="Max CO%")
+        fig_co.add_hline(y=MY_LIMITS["CO_percentage"][0], line_dash="dash", line_color="orange")
+    fig_co.update_layout(height=300, hovermode="x unified")
+    st.plotly_chart(fig_co, use_container_width=True)
+
 
     # 5. TABLES
     st.divider()

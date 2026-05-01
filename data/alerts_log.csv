@@ -1461,3 +1461,14 @@ timestamp,message
 2026-05-02 02:55:54,⚡ [L2-SPIKE] main_gas_pressure sudden change! Value: 87.63
 2026-05-02 02:55:54,⚠️ [L1-RANGE] CO_percentage out of range! Value: 30.0
 2026-05-02 02:55:54,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 30.0
+2026-05-02 03:15:44,⚠️ [L1-RANGE] carbon_potential out of range! Value: 0.0
+2026-05-02 03:15:51,⚠️ [L1-RANGE] CO_percentage out of range! Value: 0.0
+2026-05-02 03:15:53,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.87
+2026-05-02 03:15:53,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 19.54
+2026-05-02 03:15:55,⚡ [L2-SPIKE] carbon_potential sudden change! Value: 0.87
+2026-05-02 03:15:57,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 18.65
+2026-05-02 03:15:59,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 18.46
+2026-05-02 03:16:01,⚠️ [L1-RANGE] main_gas_flow out of range! Value: 0.0
+2026-05-02 03:16:01,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 0.0
+2026-05-02 03:16:01,⚡ [L2-SPIKE] CO_percentage sudden change! Value: 20.95
+2026-05-02 03:16:03,⚡ [L2-SPIKE] main_gas_flow sudden change! Value: 26.33

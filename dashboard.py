@@ -130,7 +130,7 @@ while True:
                     # Main Gas
                     st.plotly_chart(
                         create_dual_y_chart(df_plot, "Main Gas Analysis", "main_gas_flow", "main_gas_pressure", "m3/h",
-                                            "mbar", MY_LIMITS), use_container_width=True)
+                                            "Bar", MY_LIMITS), use_container_width=True)
 
                 with col_right:
                     # Atmosphere
@@ -140,7 +140,7 @@ while True:
 
                     # Addition Gas
                     st.plotly_chart(create_dual_y_chart(df_plot, "Addition Gas Analysis", "addition_gas_flow",
-                                                        "addition_gas_pressure", "Nl/h", "mbar", MY_LIMITS),
+                                                        "addition_gas_pressure", "Nl/h", "Bar", MY_LIMITS),
                                     use_container_width=True)
 
                 # 2/ CO Percentage Chart (with Limit & Hover Status)
