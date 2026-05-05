@@ -5,7 +5,9 @@ This simulates a real-world industrial monitoring system. It features real-time 
 The project demonstrates a modern data pipeline using three core components:
 
 1/ Data Generation (machine.py): A Python script that simulates complex industrial sensor signals with random noise and spikes. - In industry, the signals are collected via MES
+
 2/ Backend API (app.py): Powered by FastAPI, handling data ingestion and processing. - In industry, there are several applications for data collect to MES, but working principle is through API
+
 3/ Live Dashboard (dashboard.py): Built with Streamlit and Plotly for high-performance, real-time monitoring. - Same as SCADA, Grafana in the industry
 
 **How to Experience
